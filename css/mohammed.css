@@ -1,0 +1,126 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300&family=Roboto:wght@100;300;400&display=swap'); 
+*{
+    box-sizing: border-box;
+  
+      
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+   
+}
+ body {
+   
+    background-color:#F5F3F4;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+.terms_of_use{
+    width: 100%;
+
+  
+    position: relative;
+}
+.link_the_boss{
+position: absolute;
+top: 30px;
+right: 30px;
+
+}
+.link_the_boss {
+    font-size: 2em;
+    margin-right: 50px;
+   
+}
+.terms{
+    position: absolute;
+    top:70px;
+    right: 30px;
+    font-size: 1.5em;
+    line-height: 47px;
+
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.text_terms_of_use{
+    width: 90%;
+height: auto;
+    position: absolute;
+    top: 170px;
+margin-right: 5%;
+ background-color: #fff;
+
+}
+.faq-categories {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e8eaed;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    padding: 0;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.faq-categories .faq-categories-item {
+    display: flex;
+    justify-content: center;
+    width: 33.33333%;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+   
+
+}
+ul {
+    list-style-type: disc;
+}
+.faq-categories .faq-categories-item a {
+    color: #1e2527;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    width: 100%;
+    text-align: center;
+   
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    font-size: 0.8em;
+
+}
+
+
+a {
+    transition-property: background,color,border,opacity;
+    transition-duration: .4s;
+    color: #2386c8;
+    text-decoration: none;
+}
+
+/* تحريك السهم */
+.accordion-button::after{
+
+  position: absolute;
+  left: 10px;
+
+}
+/* تكبير الخط */
+p{
+    font-size: 1em;
+}
+.accordion-button {
+    font-size: 0.7em;
+}

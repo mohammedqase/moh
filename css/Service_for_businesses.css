@@ -1,0 +1,273 @@
+ 
+ 
+*{
+    box-sizing: border-box;
+  
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+   
+}
+ body {
+    font-family: Noto Kufi Arabic,Open Sans,Helvetica Neue,Helvetica,Arial,"sans-serif";
+    font-size: 16px;
+    background-color:#F5F3F4;
+}
+a{
+    text-decoration: none;
+}
+/* تنسيق بداية الصفحه من صوره  */
+.hero_with-image{
+    height: 550px;
+    background-image: url(../img/22.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.container-main-container{
+
+background-position: 50%;
+top: 30%;
+color: #fff;
+text-align: center;
+position: relative;
+box-sizing: border-box;
+margin-bottom: 100px;
+}
+.row{
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-auto{
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-left: calc(var(--bs-gutter-x)*0.5);
+    padding-right: calc(var(--bs-gutter-x)*0.5);
+}
+.title{
+    font-size: calc(1.375rem + 1.5vw);
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+.hero-title2{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto 20px;
+}
+.create-an-organization-button{
+    padding: 13px 22px;
+    cursor: pointer;
+    border-color: #241943;
+    background: #241943;
+    color: #fff!important;
+    border-radius: 0;
+    font-size: 16px
+}
+/* بداية تنسيق ماذا يحقق توظيف خدزمة */
+.main-container{
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    width: 100%;
+    background-color:#F5F3F4;
+}
+.block{
+  
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.block h3{
+    font-size: 2em;
+    line-height: 47px;
+    margin-bottom: 1.5rem;
+  
+}
+.row{
+  
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.col-md6{
+    align-self: center!important;
+    flex: 0 0 auto;
+    width: 50%;
+   
+
+}
+.features-pe-5{
+    position: relative;
+    padding-left: 3rem!important;
+}
+h3{
+    font-weight: 600px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ol, ul {
+    padding-right: 2rem;
+}
+.block ul li {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    list-style: none;
+    position: relative;}
+    
+    .col-md-7{
+        flex: 0 0 auto;
+        width: 50%;
+    width: 50%;
+    max-width: 100%;
+    padding-left: calc(var(--bs-gutter-x)*0.5);
+    padding-right: calc(var(--bs-gutter-x)*0.5);
+    margin-top: var(--bs-gutter-y);
+    }
+    .ratioooo{
+        
+    
+          position: absolute;
+
+    
+    }
+    .ratioo:before {
+        display:inline-block;
+        padding-top: var(--bs-aspect-ratio);
+        content: "";
+    }
+    .video_kif_iaml{
+    width: 400px;
+      position: absolute;
+      right: 300px;
+      top: 50px;
+    }
+    /* بداية ماهو خدمة */
+    .bg-white{
+ overflow: hidden;
+        background-color: #fff;
+        height: 500px;
+        width: 100%;
+position: relative;
+    }
+    .container2{
+       position: absolute;
+       right: 20%;
+   width:900px;
+margin-top: 40px;
+    }
+    
+.main-block-title{
+  padding: 20px;
+        text-align: center;
+    font-size: 2em;
+    padding: 20px;
+   
+    }
+   
+    .features{
+      
+        overflow: hidden;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .features p{
+        line-height: 1.6;
+    }
+
+     /* كيف يعمل خدمةللمؤسسات  */
+
+    
+    .How_it_works{
+        overflow: hidden;
+        background-color:#F5F3F4; 
+        height: 500px;
+        width: 100%;
+position: relative;
+    }
+    .How_it_works_1{
+        width: 90%;
+    height: 400px;
+ margin-top: 5%;
+ margin-right: 5%;
+}
+.text_How_it_works{
+    margin-bottom: 50px;
+}
+.text_How_it_works h3{
+    text-align: center;
+    font-size: 2em;
+    line-height: 47px;
+    margin-bottom: 1.5rem;
+
+}
+.containers{
+width: 100%;
+    height: 220px;
+    background-color: #F5F3F4;
+    position: relative;
+    top: 50px;
+display: flex;
+padding: 10px;}
+.containers1{
+   
+    position: relative;
+    height: 150px;
+    width:calc(100% /3);
+    background-color:white;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.col-lg-10{
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 47px;
+    max-width: 100%;
+    padding-left: calc(var(--bs-gutter-x)*0.5);
+    padding-right: calc(var(--bs-gutter-x)*0.5);
+    margin-top: var(--bs-gutter-y);
+    font: 1em;
+}
+.steps-content-title{
+    margin-bottom: 15px;
+}
+.steps-content-description{
+    line-height: 28px;
+    font-family: Noto Naskh Arabic,Open Sans,Helvetica Neue,Helvetica,Arial,"sans-serif";
+    color: #241943;
+}
+.steps-content-number{
+    
+    background-color: #241943;
+    box-shadow: none;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    line-height: 44px;
+    font-size: 20px;
+    left: 25px;
+    bottom: -20px;
+    box-shadow: 0 0 0 7px #f5f5f6;
+    -webkit-box-shadow: 0 0 0 7px #f5f5f6;
+    -moz-box-shadow: 0 0 0 7px #f5f5f6;
+    -ms-box-shadow: 0 0 0 7px #f5f5f6;
+    background: #241943;
+    color: #fff;
+}

@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+  
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+   
+}
+ body {
+    font-family: Noto Kufi Arabic,Open Sans,Helvetica Neue,Helvetica,Arial,"sans-serif";
+    font-size: 16px;
+   background-color: #fff;
+}
+ /* البحث  */
+a{
+    text-decoration: none;
+    color: #000;
+}
+.header_search{
+    width: 1050px;
+    height: 90px;
+   position:fixed;
+   left: 0px;
+   background-color: white;
+   border-bottom:1px solid #000;
+   z-index: 3;
+}
+.input_search1{
+    border: 1px solid transparent;
+    width: 850px;
+    font-size: 18px;
+    min-height: 54px;
+    padding: 15px;
+    padding-inline-start: 56px;
+    background-color: #f3f4f6;
+    border-radius: 50rem;
+    
+  margin: 15px 25px 15px 0px;
+  
+}
+/* الروابط في اليمين */
+.The_link_the_right{
+    width:467px ;
+    height: 1500px;
+    background-color: #fff;
+    position: fixed;
+    border-left: 1px solid #000;
+}
+.the_right1{
+width: 250px;
+height:1500px;
+background-color:#fff;
+position: absolute;
+left: 20px;
+
+}
+.the_right_header_img{
+ width: 100%;
+ height: 40%;
+}
+.link_hidr12{
+    margin-top: 20px;
+    width: 300px;
+   
+}
+
+.link_hidr0{
+    list-style: none;
+display: flex;
+height: 150px;
+overflow: hidden;
+font-size: 1.5em;
+margin-right: 10px;
+flex-direction: column;
+}
+.hidr_link0 ul li{
+    padding: 5px 15px;
+}
+.hidr_link0 ul li a{
+    margin: 10px;
+  
+}
+.the_right_header{
+    width: 250px;
+    height:250px;
+    background-color: rgb(255, 255, 255);
+    border-bottom:1px solid #000;
+  position: relative;
+}
+.the_right1_but{
+    position: relative;
+}
+.link_hidr{
+    list-style: none;
+display: flex;
+height: 300px;
+overflow: hidden;
+font-size: 1.5em;
+margin-right: 10px;
+flex-direction: column;
+}
+.hidr_link ul li{
+    padding: 0 15px;
+}
+.link_hidr1{
+    margin-top: 20px;
+    width: 300px;
+  
+}
+.hidr_link ul li a{
+    margin: 10px;
+ 
+}
+/* السهم */
+.fa-solid{
+    color:#34508894;
+
+}
+/* اول مربع روابط الوسط */
+.Links-the-middle{
+width: 1000px;
+height: 1000px;
+background-color: #fff;
+position: relative;
+top: 100px;
+right: 480px;
+
+}
+.Links-the-middle1{
+    width: 800px;
+    height: 250px;
+    background-color: #fff;
+    position: relative;
+   top: 10px;
+   right: 10px;
+   margin-bottom: 50px;
+}
+.headline{
+    width: 100%;
+    height: 40px;
+  
+}
+.headline11{
+font-size: 1.8em;
+position: relative;
+right: 10px;
+}
+.headerlinks{
+    width: 100%;
+    height: 210px;
+    position: relative; 
+background-color: #fff;
+
+color: #000;
+display: flex;
+
+}
+.headerlinks11{
+    
+  width: 300px;
+position: absolute;
+top: 10px;
+right: 50px;
+}
+.headerlinks12{
+    margin: 10px;
+}
+.headerlinks14{
+    margin: 10px;
+}
+.headerlinks13{
+    width: 300px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.headerlinks a{
+    font-size: 1em;
+    color: #000;
+}
+.headerlinks ol{
+    font-size:1.2em;
+}
+/* نهاية الروابط الاول في الوسط */
+
+/* بداية الروابط الثاني */
+.Links-the-middle2{
+    width: 800px;
+    height: 300px;
+    background-color: #fff;
+    position: relative;
+   top: 10px;
+   right: 10px;
+   margin-bottom: 50px;
+   display: flex;
+   flex-direction: row;
+}
+.Links-one{
+    width:50% ;
+    height: 100%;
+
+    
+}
+.one-1{
+width: 350px;
+height: 100%;
+background-color: #F5F3F4;;
+}
+.Links-tow{
+    width:50% ;
+    height: 100%;
+  
+}
+.tow-1{
+width: 350px;
+height: 100%;
+background-color: #F5F3F4;;
+}
+
+.Links-one-1 ul li{
+    list-style-type: none;
+font-size: 1.5em;
+color: #000;
+margin-top: 10px;
+}
+.Links-tow-1 ul li{
+    list-style-type: none;
+font-size: 1.5em;
+color: #000;
+margin-top: 10px;
+}
+.headline1{
+    border-bottom:1px solid #000;
+}

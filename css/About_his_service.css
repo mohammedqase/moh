@@ -1,0 +1,71 @@
+ 
+*{
+    box-sizing: border-box;
+  
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+   
+}
+ body {
+    font-family: Noto Kufi Arabic,Open Sans,Helvetica Neue,Helvetica,Arial,"sans-serif";
+    font-size: 16px;
+    background-color:#F5F3F4;
+}
+a{
+    text-decoration: none;
+}
+/* بداية تنسيق */
+.About_his_service{
+    width: 100%;
+    height: 550px;
+  
+    position: relative;
+}
+.link_the_boss{
+position: absolute;
+top: 30px;
+right: 30px;
+
+}
+.link_the_boss a{
+    font-size: 1.5em;
+   
+}
+.service{
+    position: absolute;
+    top:70px;
+    right: 30px;
+    font-size: 1.5em;
+    line-height: 47px;
+    margin-bottom: 1.5rem;
+}
+.service h2{
+        color: #000;
+   
+}
+.text_About_his_service{
+    width: 90%;
+    height: 350px;
+    position: absolute;
+    top: 100px;
+ margin-top: 5%;
+ margin-right: 5%;
+ background-color: #fff;
+}
+/* تنسيق النص داخل الدف */
+.text_About_his_service0 p{
+    font-size: 1.5em;
+    line-height: 47px;
+margin: 10px 50px;
+
+}
+.text_About_his_service1{
+    margin:10px 50px;
+    font-size: 1.1em;
+}
+.text_About_his_service2{
+    margin: 10px 50px;
+    font: size 1.1em;
+}
